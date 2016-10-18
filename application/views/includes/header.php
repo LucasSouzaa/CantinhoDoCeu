@@ -20,11 +20,11 @@
     <div class="wrapper">
 
       <header class="main-header">
-        <meta charset="utf-8">
+        
         <nav class="navbar navbar-static-top" role="navigation">
 
           <div class="navbar-header">
-            <a href="#" class="navbar-brand"><b>Cantinho</b> do céu</a>
+            <a href="#" class="navbar-brand"><b>Cantinho</b> do ceu</a>
 
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
               <i class="fa fa-bars"></i>
@@ -70,18 +70,6 @@
                   </li>
                   <li>
                     <a href="<?= $this->config->base_url('index.php/profissional/editar') ?>"><i class="fa fa-edit"></i>Editar profissional</a>
-                  </li>
-                </ul>
-              </li>
-              
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-medkit"></i> Farmácia<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a href="<?= $this->config->base_url('index.php/farmacia/entrada') ?>"><i class="fa fa-plus-square"></i>Entrada de medicamento/material</a>
-                  </li>
-                  <li>
-                    <a href="<?= $this->config->base_url('index.php/farmacia/saida') ?>"><i class="fa fa-plus-square"></i>Saída de medicamento/material</a>
                   </li>
                 </ul>
               </li>

@@ -26,4 +26,3 @@ class Paciente extends CI_Controller {
 		}
 	}
 }
-?>
